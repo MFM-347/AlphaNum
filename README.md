@@ -142,6 +142,6 @@ For any issues or feature requests, visit the [issues page](https://github.com/A
 
 ## License
 
-This library is licensed under the **Apache 2.0 License**.
+This library is licensed under the **MIT License**.
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-0298c3.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
