@@ -1,5 +1,5 @@
 {
-  "name": "@starc347/alpha-num",
+  "name": "@tfs-8/alphanum",
   "version": "0.9.4",
   "description": "A lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations.",
   "type": "module",

@@ -1,7 +1,7 @@
 # AlphaNum
 
-[![Version](https://img.shields.io/npm/v/@starc347/alpha-num.svg)](https://www.npmjs.com/package/@starc347/alpha-num)  
-[![Downloads](https://img.shields.io/npm/dm/@starc347/alpha-num.svg)](https://www.npmjs.com/package/@starc347/alpha-num)
+[![Version](https://img.shields.io/npm/v/@tfs-8/alphanum.svg)](https://www.npmjs.com/package/@tfs-8/alphanum)  
+[![Downloads](https://img.shields.io/npm/dm/@tfs-8/alphanum.svg)](https://www.npmjs.com/package/@tfs-8/alphanum)
 
 **AlphaNum** is a lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations. It maps letters to their positions in the alphabet and converts them back.
 
@@ -18,7 +18,7 @@
 Install the package using npm:
 
 ```sh
-npm install @starc347/alpha-num
+npm install @tfs-8/alphanum
 ```
 
 ### Usage
@@ -28,13 +28,13 @@ npm install @starc347/alpha-num
 ##### CommonJS Import
 
 ```js
-const AlphaNum = require("@starc347/alpha-num");
+const AlphaNum = require("@tfs-8/alphanum");
 ```
 
 ##### ES Module Import
 
 ```js
-import AlphaNum from "@starc347/alpha-num";
+import AlphaNum from "@tfs-8/alphanum";
 ```
 
 #### Encode & Decode
@@ -65,7 +65,7 @@ console.log(decoded); // Output: hello world
 Here's a complete example of encoding and decoding:
 
 ```js
-const AlphaNum = require("@starc347/alpha-num");
+const AlphaNum = require("@tfs-8/alphanum");
 
 // Input message
 const message = "hello world";
@@ -86,7 +86,7 @@ console.log("Decoded:", decodedMessage); // Output: hello world
 Use the library via CDN in your HTML file:
 
 ```html
-<script src="https://unpkg.com/@starc347/alpha-num/dist/alpha-num.umd.js"></script>
+<script src="https://unpkg.com/@tfs-8/alphanum/dist/alpha-num.umd.js"></script>
 ```
 
 ### Usage
@@ -99,7 +99,7 @@ Use the library via CDN in your HTML file:
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlphaNum CDN Example</title>
     <!-- Import AlphNum -->
-    <script src="https://unpkg.com/@starc347/alpha-num/dist/alpha-num.umd.js"></script>
+    <script src="https://unpkg.com/@tfs-8/alphanum/dist/alpha-num.umd.js"></script>
   </head>
   <body>
     <h1>AlphaNum Example</h1>
