@@ -1,11 +1,11 @@
 {
   "name": "@tfs-8/alphanum",
-  "version": "0.9.4",
+  "version": "1.0.0",
   "description": "A lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations.",
   "type": "module",
-  "sideEffects": false,
   "main": "./dist/alpha-num.umd.js",
   "module": "./dist/alpha-num.es.js",
+  "types": "./dist/alphaNum.d.ts",
   "exports": {
     ".": {
       "import": "./dist/alpha-num.es.js",
@@ -18,11 +18,24 @@
     "README.md"
   ],
   "scripts": {
-    "build": "npx prettier -w . && vite build",
-    "prepublishOnly": "npm run build"
+    "prebuild": "npm run format && npm run lint",
+    "build": "tsc && vite build",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint . --fix",
+    "format": "prettier -w ."
   },
   "devDependencies": {
-    "vite": "^6.0.3"
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.1",
+    "vite": "^6.0.3",
+    "vite-plugin-dts": "^4.4.0"
   },
   "keywords": [
     "alpha",
@@ -36,7 +49,8 @@
     "alphabet",
     "utility",
     "javascript",
-    "text-utility"
+    "text-utility",
+    "mfm3478"
   ],
   "repository": {
     "type": "git",
@@ -51,5 +65,9 @@
     "email": "madnifm347@outlook.com",
     "url": "https://github.com/MFM-347"
   },
-"license": "Apache-2.0"
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "packageManager": "npm@10.8.2"
 }
